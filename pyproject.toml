@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "miaauth"
+version = "0.0.1"
+description = "Authenticator class for MIA"
+readme = "README.md"
+requires-python = ">3.7"
+license = "MIT"
+authors = [
+    { name = "Tim Metzler", email = "tim.metzler@h-brs.de"}
+]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9"
+]
+dependencies = [
+    "oauthenticator",
+]
+
+[project.urls]
+Documentation = "https://github.com/Digiklausur/miaauth"
+Issues = "https://github.com/Digiklausur/miaauth/issues"
+Source = "https://github.com/Digiklausur/miaauth"
